@@ -77,5 +77,6 @@ header {padding:30px 0 15px; text-align:center;}
 header h1 {font-size:36px; color:firebrick;}
 
 @media (max-width: 599px){
+	header {padding:15px 0 0;}
     header h1 {font-size:24px;}
 }

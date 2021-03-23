@@ -9,7 +9,9 @@ function App() {
     <div className="wrap">
       <HashRouter>
         <header>
-          <Link to='/'><h1>MOVIE LIST</h1></Link>
+          <div className="container">
+            <Link to='/'><h1>MOVIE LIST</h1></Link>
+          </div>
         </header>
         <Route path="/" exact={true} component={Home} />
         <Route path="/movie/:id" component={Detail} />
