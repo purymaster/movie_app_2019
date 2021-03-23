@@ -61,12 +61,21 @@ h2,
 h3,
 h4,
 h5,
-h6 {line-height:1.2em;}
+h6 {line-height:1.2em; font-weight:700;}
+a {color:inherit; text-decoration:none;}
 
 /* Loader */
-.loader {position:fixed; top:0; left:0; z-index:1; width:100%; height:100%; background:#fff;}
+.loader {position:fixed; top:0; left:0; z-index:1; width:100%; height:100%;}
 .loader .txt {position:absolute; top:50%; left:50%; width:30px; height:30px; margin-top:-15px; margin-left:-15px; border:5px solid rgba(0, 0, 0, .15); border-top-color:#666; border-radius:50%; text-indent:-9999px; animation:spin 1s linear infinite;}
 
 @keyframes spin {
 	to {transform: rotate(360deg);}
+}
+
+/* Header */
+header {padding:30px 0 15px; text-align:center;}
+header h1 {font-size:36px; color:firebrick;}
+
+@media (max-width: 599px){
+    header h1 {font-size:24px;}
 }

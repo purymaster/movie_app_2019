@@ -18,3 +18,13 @@
     .container .movie_data .genres li {font-size:10px;}
     .container .movie_data .summary {font-size:12px;}
 }
+
+/* Movie Detail */
+.container .detail {text-align:center;}
+.container .detail img {float:none; width:230px;}
+.container .detail .movie_data {margin-top:15px; padding:0;}
+.container .detail .movie_data .year {display:block; font-weight:700; color:lightcoral;}
+
+@media (max-width: 599px){
+    .container .detail img {width:115px;}
+}
